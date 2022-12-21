@@ -39,14 +39,14 @@ int main()
 
 	std::string firstname, lastname, fullname;
 
-	// rvalue = lvalue 
+	// lvalue = rvalue 
 
 	firstname = "myFirstName";
 	lastname = "myLastName";
 	
-	// fullname is lvalue and so firstname and lastname right 
-	// in fact the compiler implicitely convert rvalue (firstname and lastname)
-	// to rvalue.
+	// fullname is lvalue and so firstname and lastname right!!! 
+	// in fact the compiler implicitly convert firstname and lastname to rvalue
+	// so it can perform the operation +
 
 	fullname = firstname + " " + lastname;
 	
