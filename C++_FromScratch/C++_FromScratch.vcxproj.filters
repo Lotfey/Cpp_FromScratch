@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lvalue_vs_rvalue.cpp">
+    <ClCompile Include="moveSemantics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
