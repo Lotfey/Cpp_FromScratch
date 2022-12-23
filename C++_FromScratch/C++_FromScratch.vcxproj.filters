@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="moveSemantics.cpp">
+    <ClCompile Include="scoped_thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
