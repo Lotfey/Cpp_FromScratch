@@ -1,6 +1,3 @@
-
-// the pure virtual function is a function implemented 
-
 #include<iostream>
 #include<string>
 
