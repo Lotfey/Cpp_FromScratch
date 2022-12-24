@@ -29,11 +29,11 @@ public:
 	square(std::string name) :shape(name) {};
 
 	// here implement the pure virtual fuction custumised for the square class
-
 	std::string const getClassName()
 	{
 		return "Square";
 	}
+
 	void drawShape()
 	{
 		std::cout << "Draw " << getClassName() << std::endl;
