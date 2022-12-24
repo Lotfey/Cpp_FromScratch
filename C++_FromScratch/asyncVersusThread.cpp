@@ -8,7 +8,7 @@
 
   std::cout << std::endl;
 
-  int res;
+  int res=0;
 
   // create a thread and pass its work via lambda expression captured by reference 
   std::thread t([&]{ res = 2000 + 22; });
