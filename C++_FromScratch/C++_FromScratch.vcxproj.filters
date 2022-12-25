@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PureVirtualFunctions.cpp">
+    <ClCompile Include="coutSynchronized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
