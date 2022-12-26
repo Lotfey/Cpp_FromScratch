@@ -35,7 +35,6 @@ int main() {
 
 	std::cout << std::endl;
 	std::cout << "Boss: Let's start working." << "\n\n";
-
 	
 	std::thread herb = std::thread(Worker("1- Herb"));
 	std::thread andrei = std::thread(Worker("2-  Andrei"));
