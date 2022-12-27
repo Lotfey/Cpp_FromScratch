@@ -1,7 +1,6 @@
 // Functor.cpp
-
-
 #include <iostream>
+
 class Counter
 {
 public:
@@ -11,7 +10,7 @@ public:
 	
 	// Functor that returns the count 
 	// By overriding the operator (), the object counter will be 
-	// responsible of performing the cumule and save it in the 
+	// responsible for performing the cumulating  and saving it in the 
 	// class member variable 
 	int  operator() (int n)	
 	{
@@ -42,6 +41,4 @@ int main() {
 	}
 
 	std::cout<<"\nThe cumulative count is: "<<C1.getCount() << std::endl;
-	
-	return 0;
 }
