@@ -1,6 +1,3 @@
-
-
-
 #include <iostream>
 #include<vector>
 #include<cassert>
@@ -23,6 +20,9 @@ public:
 	// the functor signature
 	int operator()(int y) { return x_ + y; }
 	float operator()(float s) { return x_ - s; }
+	
+	// deconstructor
+	~add_x()=defaults;
 private:
 	int x_;
 };
