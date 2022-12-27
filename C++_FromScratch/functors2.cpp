@@ -22,7 +22,7 @@ public:
 	float operator()(float s) { return x_ - s; }
 	
 	// deconstructor
-	~add_x()=defaults;
+	~add_x()=default;
 private:
 	int x_;
 };
@@ -40,7 +40,7 @@ int main()
 	int i = add42(8.f); 
 
 	// because the argument is float, the compelator calls the float functor 
-	std::cout << i << std::endl;
+	std::cout <<"functor result: "<< i << std::endl;
 	
 	// assume this vector in contains a bunch of values
 	std::vector<int> in; 
