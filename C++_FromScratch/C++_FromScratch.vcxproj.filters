@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="coutUnsynchronized.cpp">
+    <ClCompile Include="functor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
