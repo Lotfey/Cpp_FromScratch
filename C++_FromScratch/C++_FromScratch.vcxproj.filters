@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdTransform.cpp">
+    <ClCompile Include="threadLocal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
