@@ -21,7 +21,7 @@ int main()
 	// return the thread Id via lambda expression
 	// use std::this_thread::get_id()
 	thread t1([] {cout << "From lambda expression t1 with id= " << this_thread::get_id() << endl; });
-	thread t2([] {cout << "From lambda expression  t2 with id= " << this_thread::get_id() << endl; });
+	thread t2([] {cout << "From lambda expression t2 with id= " << this_thread::get_id() << endl; });
 	cout << endl;
 	
 	//Use thread method get_id() to return the thread id 
